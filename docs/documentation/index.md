@@ -1,6 +1,6 @@
 # Index - Documentation
 This is a collection of the most used features from MkDocs-material for the learning materials at HAMK.  
-Mkdocs has a powerful search function. Please use the search box (:arrow_up: in the header) to find a setting. If the topic not included in this site, please refer to the full documentation from Mkdocs-material belows.  
+Mkdocs has a powerful search function. Please use the search box (:arrow_up: in the header) to find a setting. If the topic not included in this site, please refer to the full documentation from Mkdocs-material below.  
 
 ## MkDocs(-material) documentation
 <a href='https://squidfunk.github.io/mkdocs-material/' target='_blank'>
