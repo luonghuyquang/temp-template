@@ -1,9 +1,10 @@
-site_name: Course Name
-repo_url: https://github.com/hamk-business-information-technology
-repo_name: hamk/bit_ca
+site_name: Course Name (a template)
+repo_url: https://github.com/hamk-business-information-technology/mkdocs-material-template
+edit_uri: edit/main/docs/ # to let content.action.edit / view redirect to `main`, not `master`
+repo_name: hamk-bit-ca/template
 theme:
   name: material
-  logo: assets/logo_light_pink.png
+  logo: assets/favicon/logo_light_pink.png
   favicon: assets/favicon/favicon.png
   features:
     - content.tabs.link
@@ -24,7 +25,7 @@ theme:
 #    - toc
 #    - toc.sidebar
 #    - toc.follow
-#    - toc.integrate # this integrate the right side toc to the left side nav
+    - toc.integrate # this integrate the right side toc to the left side nav
   language: en
   palette:
     # Palette toggle for dark mode
@@ -35,7 +36,7 @@ theme:
         primary: custom
         accent: custom
     # Palette toggle for light mode
-    - scheme: default #HAMK #
+    - scheme: default #HAMK
       toggle:
         icon: material/toggle-switch-off-outline
         name: Switch to dark mode
@@ -51,7 +52,7 @@ extra:
     - icon: fontawesome/solid/paper-plane
       link: mailto:firstname.lastname@hamk.fi
   status:
-    new: New feature
+    new: new feature
     experimental: experimental
 
 markdown_extensions:
@@ -96,19 +97,20 @@ extra_css:
   - css/custom.css
 extra_javascript:
   - js/custom.js
+
+nav:
+  - Home: index.md
+  - Topic 1: template/topic1.md
+  - Topic 2: template/topic2.md
+  - Topic 3: template/topic3.md
+  - Topic 4: template/topic4.md
+  - Topic 5: template/topic5.md
   
 # plugins:
 #  - offline:
 #      enabled: !ENV [OFFLINE, false] # if true, the rendered url will differ with .html ending
 #  - info # this is to report bug to mkdocs-material only
 #  - search # must be on if plugins on
-
-#nav:
-#  - Home: index.md
-#  - Template: template/index.md
-#  - Documentation: documentation/index.md
-#  - BYOD: byod/index.md
-#  - BYOD: byod/
 
 copyright:
   Copyright &copy; 2024 <a href="https://www.hamk.fi/en/" target="blank" >Häme University of Applied Sciences (HAMK)</a>

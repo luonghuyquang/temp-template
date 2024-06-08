@@ -1,31 +1,31 @@
 ---
-title: Home
+title: Index - Template
 status: new
 ---
-*This is a template for using mkdocs-material to deliver Business Information Technology or Computer Applications learning materials at HAMK.*  
+# Index of Template
+This is a template for using mkdocs-material to deliver Business Information Technology or Computer Applications learning materials at HAMK.
 
 # Module Name: Module 1
-
 ???+ note "This course is part of the Module 1 which consists of 3 courses (total 15 ETC):"
     1. Course 1: 5 ETC  
     2. Course 2: 5 ETC  
     3. Course 3: 5 ETC  
 
 ##  Course Name: Course 1
-## Objectives
+### Objectives
 ???+ info "After accomplishing this course, the student will be able to:"
     - Do this   
     - Apply this  
     - Avoid that  
     - ...
-## Timetable
+### Timetable
 `time-table`
-## Get to know your teacher
+### Get to know your teacher
 `your-presentation-or-website`
-## Grading and what we will do
+### Grading and what we will do
 ???+ warning "Honesty Zone"
     Zero tolerance to cheating
-### Criteria for the grade in this course:
+#### Criteria for the grade in this course:
 === "Grade 0"
     0: No or Unqualified submission
 === "Grade 1"
@@ -38,7 +38,7 @@ status: new
     4
 === "Grade 5"
     5
-## Topics
+### Topics
 ???+ danger "Critical"
     Failing [Topic 5](#__tabbed_2_5) means Failing the whole course
 
@@ -79,16 +79,16 @@ status: new
     Assignment 3
 === "4.Pdf embedding"
     Topic 4: embedding pdf 
-    <iframe src='./assets/pdf/poster_mi24_final.pdf' width=100% height=700px>This browser does not support PDFs. Please download the PDF to view it: <a href='assets/poster_mi24_final.pdf'>Download PDF</a>
+    <iframe src='./assets/poster_mi24_final.pdf' width=100% height=700px>This browser does not support PDFs. Please download the PDF to view it: <a href='assets/poster_mi24_final.pdf'>Download PDF</a>
     </iframe>
     Assignment 4
 === "5.Topic 5"
-    Topic 5 [details](./template/topic5.md)  
+    Topic 5 [details](./5.topic5.md)  
     Assignment 5
 === "Extra"
     Extra [materials](#materials-for-self-learning-beyond-this-course) for self learning beyond this course 
 
-## Materials for self learning beyond this course
+### Materials for self learning beyond this course
 === "Books chapters"
     Links to (e)books
 === "Websites"
@@ -108,4 +108,4 @@ status: new
 
     1.  this will display 'Hello World'
 
-## Exams
+### Exams
