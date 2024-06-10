@@ -43,7 +43,7 @@ status: new
     Failing [Topic 5](#__tabbed_2_5) means Failing the whole course
 
 === "1.Code blocks"
-    Topic 1: Example of a code block  
+    [Topic 1:](./template/topic1/) Example of a code block  
     ```html linenums="1" hl_lines="4-5 8" title="introduction to html"
     <!-- this is html -->
     <!DOCTYPE html>
@@ -62,7 +62,7 @@ status: new
     2. script
     Assignment 1
 === "2.Google Drive"
-    Topic 2: Video stored in Google Drive  
+    [Topic 2:](./template/topic2/) Video stored in Google Drive  
     This is a video hosted in Google Drive  
     :material-folder-google-drive:{ .google-drive }
     <div class='video-container'>
@@ -70,7 +70,7 @@ status: new
     </div>
     Assignment 2
 === "3.YouTube"
-    Topic 3: YouTube video  
+    [Topic 3:](./template/topic3/) YouTube video  
     This is a video hosted in YouTube  
     :fontawesome-brands-youtube:{ .youtube }
     <div class='video-container'>
@@ -78,12 +78,12 @@ status: new
     </div>
     Assignment 3
 === "4.Pdf embedding"
-    Topic 4: embedding pdf 
+    [Topic 4:](./template/topic4/)  embedding pdf 
     <iframe src='./assets/pdf/poster_mi24_final.pdf' width=100% height=700px>This browser does not support PDFs. Please download the PDF to view it: <a href='assets/poster_mi24_final.pdf'>Download PDF</a>
     </iframe>
     Assignment 4
 === "5.Topic 5"
-    Topic 5 [details](./template/topic5.md)  
+    [Topic 5](./template/topic5.md)  
     Assignment 5
 === "Extra"
     Extra [materials](#materials-for-self-learning-beyond-this-course) for self learning beyond this course 
